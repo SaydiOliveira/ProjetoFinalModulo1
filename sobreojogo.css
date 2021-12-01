@@ -1,0 +1,91 @@
+header{
+    background: #000000;
+    height: auto;
+    padding: 15px 15px;
+    align-content: center;
+    align-items: center;
+}
+.cabecalho{
+    position:relative;
+    width: auto;
+    height: auto;
+    align-content: space-between;
+    margin: auto auto;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+}
+.bg {
+    background-image: url(.//Imagens/SobreOJogoBg.png);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+}
+.subTituloSobreOJogo{
+    padding: 15px 15px;
+    background-color: #bebebe;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    margin: auto;
+}
+
+.corpoPagina{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 15px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    background-color: #00000050;
+    border-radius: 3%;
+}
+
+.textos{
+    text-align: justify;
+    width: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    padding: 10px 0;
+
+}
+.subTituloCorpoPagina{
+    margin: top;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 40px;
+}
+
+.paragrafos{
+    margin: top;
+    text-align: center;
+    padding: 10px 10px;
+}

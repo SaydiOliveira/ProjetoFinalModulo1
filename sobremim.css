@@ -1,0 +1,84 @@
+header{
+    background: #000000;
+    height: auto;
+    padding: 15px 15px;
+    align-content: center;
+    align-items: center;
+}
+.cabecalho{
+    position:relative;
+    width: auto;
+    height: auto;
+    align-content: space-between;
+    margin: auto auto;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+}
+.bg {
+    background-image: url(./Imagens/BgSobreMim.jpg);
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    height: 600px;
+    width: 100%;
+}
+.subTituloSobreMim{
+    padding: 15px 15px;
+    background-color: #bebebe;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.corpoPagina{
+    
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    width: 90%;
+    margin: 1.5%  1.5%;
+    padding: 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;    
+}
+
+.textos{
+    text-align: justify;
+    width: 90%;
+    padding: 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+.subTituloCorpoPagina{
+    margin: top;
+    padding: 10px 10px;
+}
+
+.paragrafos{
+    margin: top;
+    padding: 10px 10px;
+}
